@@ -1,0 +1,29 @@
+{% macro projectCard(name, description, demoURL, codeURL, tags) %}
+  <div class="project-box gy-5" style="background-image: url(/assets/img/project-1.jpg);">
+    <div class="row align-items-end gy-5">
+      <div class="col-lg-7">
+        <div class="project-desc">
+          <h3>{{ name }}</h3>
+          <p>{{ description }}</p>
+          <div class="btn-bar">
+            <a class="px-btn light px_modal" href="{{ codeURL }}" target="_blank">
+              <span>View Code</span>
+              <i class="bi-arrow-right"></i>
+            </a>
+            <a class="px-btn light px_modal" href="{{ demoURL }}" target="_blank">
+              <span>View Demo</span>
+              <i class="bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 text-lg-end">
+        <div class="project-tags">
+          {% for tag in tags %}
+            <span>{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endmacro %}

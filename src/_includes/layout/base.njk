@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="pxdraft">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="Lilon- Portfolio Template">
+  <meta name="description" content="Lilon- Portfolio Template">
+  <title>{{ title }}</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  {% include 'partials/_mainnav.njk' %}
+
+  {{ content | safe }}
+
+  {% include 'partials/_footer.njk' %}
+
+  <script src="/js/jquery-3.6.4.js"></script>
+  <script src="/vendor/appear/jquery.appear.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/vendor/one-page/scrollIt.min.js"></script>
+  <script src="/js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{% macro testimonialCard(name, company, rating, string) %}
+  <div class="col-sm-6 col-lg-4">
+      <div class="testimonials-box">
+          <p>{{ string }}</p>
+          <div class="mb-3" style="color: #F1C40F">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+          </div>
+          <div class="t-user">
+              <div class="t-user-icon">
+                  <img src="/assets/img/avatar-1.jpg" title="" alt="">
+              </div>
+              <div class="t-text">
+                  <h6>{{ name }}</h6>
+                  <span>{{ company }}</span>
+              </div>
+          </div>
+      </div>
+  </div>
+{% endmacro %}

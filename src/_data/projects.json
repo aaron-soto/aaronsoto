@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Canvas Interactive Rectangles",
+    "description": "A fun interactive screen to play with your mouse cursor",
+    "demoURL": "https://aaron-soto.github.io/interactive-rectangles/",
+    "codeURL": "https://github.com/aaron-soto/interactive-rectangles",
+    "tags": ["canvas", "Web Development"]
+  },
+  {
+    "name": "Js Conffetti",
+    "description": "I created a canvas overlay that can be put on any screen to simulate a celebration",
+    "demoURL": "https://aaron-soto.github.io/js-confetti/",
+    "codeURL": "https://github.com/aaron-soto/js-confetti",
+    "tags": ["js", "Web Development"]
+  },
+  {
+    "name": "Javascript Turrent Game",
+    "description": "A javascript tower defense style game that uses OOP",
+    "demoURL": "https://aaron-soto.github.io/turrent-game/",
+    "codeURL": "https://github.com/aaron-soto/turrent-game",
+    "tags": ["js", "Web Development"]
+  }
+]

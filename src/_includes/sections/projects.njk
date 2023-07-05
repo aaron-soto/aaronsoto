@@ -1,0 +1,13 @@
+{% from "macros/project.njk" import projectCard %}
+<section class="project-section section pt-0" id="project" data-scroll-index="2">
+    <div class="container">
+        <div class="section-heading text-center mb-2">
+            <h2 class="m-0">Featured Projects</h2>
+        </div>
+        <div class="row gx-0">
+            {% for project in projects %}
+                {{ projectCard(project.name, project.description, project.demoURL, project.codeURL, project.tags) }}
+            {% endfor %}
+        </div>
+    </div>
+</section>
